@@ -1,0 +1,3 @@
+Hello there. This is a text file being read by Python.
+And this is being added via an append. 
+Otherwise if you use W it would overwrite
