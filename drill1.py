@@ -5,7 +5,7 @@ import time
 import glob
   
 #the path where the text files can be found
-path = 'C:\\Users\\baby bear\\Desktop\\Python\\The-Tech-Academy-Basic-Python-Projects\\Directory'
+path = 'C:\\Python\\The-Tech-Academy-Basic-Python-Projects\\Directory'
 
 """
 lists the files within the path.
