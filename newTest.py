@@ -1,19 +1,13 @@
+class Greetings:
+    def myMethod1(self):
+        print('Hello world!')
 
+    def myMethod2(self):
+        print('Hello Python!')
 
-
-
-
-
-
-def getNumbers(num1, num2):
-    results = num1 * num2
-    return results
-
-
-
-
-
+    def myMethod3(self):
+        print('Hello Tech Academy!')
 
 
 if __name__ == "__main__":
-    pass
+    greet = Greetings()
