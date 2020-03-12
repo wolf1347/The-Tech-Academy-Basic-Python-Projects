@@ -14,13 +14,9 @@ conn.close()
 fileList = ['information.docx','Hello.txt','myImage.png', \
             'myMovie.mpg','World.txt','data.pdf','myPhoto.jpg']
 
-int i = 0
 for fileName in fileList:
     if fileName.find("txt") != -1:
         print (fileName)
-        cur.execute("INSERT INTO tbl_files(col_fileList) VALUES (?)", \
-                (fileList[i],))
-        i++
         
 conn = sqlite3.connect('drill.db')
 

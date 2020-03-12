@@ -2,3 +2,4 @@
 drill.db
 test.db
 db_phonebook.db
+*.db
